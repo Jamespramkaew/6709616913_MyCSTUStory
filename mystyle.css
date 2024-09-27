@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,14 +7,19 @@
 }
 
 header {
-    border: solid red;
-    height: 360px;
+    padding: 60px;
     width: 100%;
 }
 
 .header_ft {
-    background-color: rgb(238, 231, 36);
+    background-color: #2F9DE1;
     text-align: center;
+}
+
+.header_ft h1 {
+    font-family: Poppins;
+    font-size: 98px;
+    color: #E02D2E;
 }
 
 .pages {
@@ -22,16 +29,37 @@ header {
     float: left;
 }
 
+.pages h3 {
+    font-family: Poppins;
+    color: #445661;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .button {
     text-decoration: none;
-    margin-top: 16px;
-    padding: 5px 0;
+    margin-top: 5px;
+    padding: 6px 0;
     width: 100%;
     float: left;
     clear: both;
-    color: #fff;
+    color: #2F9DE1;
     text-align: center;
-    background-color: #333;
+    /* background-color: #D4E03A; */
+    border: 1px solid #2F9DE1;
+    border-radius: 5px;
+}
+
+#here {
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 6px 0;
+    width: 100%;
+    float: left;
+    clear: both;
+    color: #8B4A4B;
+    text-align: center;
+    background-color: #D4E03A;
     border-radius: 5px;
 }
 
@@ -51,7 +79,7 @@ article {
 
 footer {
     border: solid yellow;
-    padding: 10px;
+    padding: 30px;
     width: 100%;
     clear: both;
     color: #fff;

@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+.logo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 10px;
+}
+
+.logo img {
+    width: 80px;
+}
+
 header {
     padding: 50px;
     width: 100%;
@@ -32,7 +43,8 @@ header p {
     padding: 10px;
     width: 20%;
     float: left;
-    height: 1024px;
+    height: 1640px;
+    background-color: #D4E03A;
 }
 
 .pages h3 {
@@ -62,21 +74,7 @@ header p {
     border-radius: 5px;
 }
 
-/* #here {
-    text-decoration: none;
-    margin-top: 5px;
-    padding: 6px 0;
-    width: 100%;
-    float: left;
-    clear: both;
-    color: #8B4A4B;
-    text-align: center;
-    background-color: #D4E03A;
-    border-radius: 5px;
-} */
-
 article {
-    /* border: solid green; */
     padding: 10px;
     width: 60%;
     float: left;
@@ -219,7 +217,6 @@ article {
 }
 
 .article-myjoruney-1 {
-    /* border: solid red; */
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
@@ -238,8 +235,12 @@ article {
     font-family: "Poppins";
 }
 
+.mj-video video {
+    width: 100%;
+    padding: 0 16%;
+}
+
 .article-myjoruney-2 {
-    /* border: solid red; */
     padding: 8%;
 }
 
@@ -250,8 +251,26 @@ article {
 }
 
 .article-myjoruney-2 p{
-    /* border: solid red; */
     margin-top: 2rem;
+}
+
+.article-myjoruney-3 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.article-myjoruney-3 p {
+    color: #445661;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.mj-list li {
+    color: #445661;
+    font-family: "Poppins";
+    font-size: 28px;
 }
 
 .etc {
@@ -259,7 +278,6 @@ article {
     width: 20%;
     float: left;
     text-align: center;
-    /* border: solid red; */
 }
 
 .etc h3 {
@@ -271,6 +289,7 @@ article {
 .etc-con img {
     width: 25%;
     border-radius: 100%;
+    cursor: zoom-in;
 }
 
 .etc-con {
@@ -279,7 +298,6 @@ article {
     padding: 8% 2%;
     background-color: #ededed;
     border-radius: 8px;
-    /* border: solid green; */
 }
 
 .contact img {
@@ -314,10 +332,11 @@ article {
 
 .etc-con-img img {
     width: 60%;
+    cursor: zoom-in;
 }
 
 footer {
-    padding: 30px;
+    padding: 43px;
     width: 100%;
     clear: both;
     color: #fff;

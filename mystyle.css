@@ -83,12 +83,20 @@ article {
 .article-word {
     font-family: "Unna" , serif;
     text-align: center;
-    padding: 8rem 0;
+    padding: 6rem 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article-word video {
+    width: 50%;
 }
 
 .article-word p {
     font-family: "Unna" , serif;
     font-size: 38px;
+    color: #445661;
 }
 
 .article-con-1 {
